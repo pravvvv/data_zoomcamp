@@ -7,6 +7,8 @@
 
 
 # Docker
+[Docker Part 1](https://github.com/pravvvv/data_zoomcamp/blob/main/Tools%20materials/Docker%20docs%20-%20Part%201%20-%20Containerizing%2C%20Updating%20and%20Sharing%20the%20Application.md)
+&nbsp; &nbsp; &nbsp; &nbsp; [Docker Part 2](https://github.com/pravvvv/data_zoomcamp/blob/main/Tools%20materials/Docker%20docs%20-%20Part%202%20-%20Persist%20the%20DB%2C%20Use%20bind%20mounts.md)
 - Docker Daemon (dockerd)
     - listens to API calls
     - manages Docker containers, images, networks and volumes
