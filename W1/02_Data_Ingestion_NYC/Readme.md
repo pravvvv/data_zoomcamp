@@ -13,3 +13,20 @@ $ docker run -it \
     postgres:13```
 ```
 
+* To access the postgres in the container use :
+```
+$ psql -h localhost -p 5432 -U root -d ny_taxi
+```
+or
+```
+$ pgcli -h localhost -p 5432 -u root -d ny_taxi
+```
+
+# Ingesting data to Postgres
+
+## Dataset source
+*  [NYC TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+
+*   [Jan 2021 Yellow taxi](https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2021-01.parquet )
+
+
