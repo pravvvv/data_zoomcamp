@@ -18,8 +18,10 @@ $ docker run -it \
 $ psql -h localhost -p 5432 -U root -d ny_taxi
 ```
 or
+
 ```
 $ pgcli -h localhost -p 5432 -u root -d ny_taxi
+
 ```
 
 # Ingesting data to Postgres
